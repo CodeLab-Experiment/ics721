@@ -78,13 +78,52 @@ yarn oraicli wasm query orai1u3hjrupq82c9kxq0y674lxxt872n78ae79xujjskukhhngl6td8
 [How to setup CLI & create testnet account](https://docs.stargaze.zone/developers/cosmwasm-smart-contracts/testnet)
 
 ## Stargaze testnet account
-
+<b></b>
 ```
-address: stars1a3766060t67u8mu740anrfqwxs7aax9srt4l4r
+  address: stars1a3766060t67u8mu740anrfqwxs7aax9srt4l4r
   name: testnet-key
   pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A1danmpAnqkS6RQWdzs7NTlL1UWLfo0uZ13MoidP92wg"}'
   type: local
 ```
+
+### Creator
+```
+  address: stars19cd68t3j0klfsehxs88pt0k2ft7s2ut0f7q4d4
+  name: creator
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AtBLl2gXbkSSyEkGS9QstVQ9t/laHS4Mc/kp8c2mggI0"}'
+  type: local
+```
+#### mnemonic
+```
+accident boost twenty come dove cinnamon pass donate balcony loyal dance forget weapon region trophy poem sorry divorce isolate more summer series dance around
+```
+
+### Minter
+```
+  address: stars1qdrw8f7sgnay5nm5kmzu5zzgeefqc58ymfrcjw
+  name: minter
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"Ay1C78opwpRQ7RjRbdc+8JfBX+7u9YvXh4Y5I653tiio"}'
+  type: local
+```
+#### mnemonic
+```
+border all modify edit surface same liberty order goddess century focus move trend mountain couple once exercise adjust east cloth garment seed funny coil
+```
+
+### Relayer
+```
+  address: stars182ntv6wdys9t5h7j0audfq7e66zdl6gzq74evx
+  name: relayer
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AxyuajWdGbqnhckj+GrtxOorqNDbzB8zNJHWxUnPjHdN"}'
+  type: local
+```
+#### mnemonic
+```
+winter super indoor foot come curtain remind topic kingdom frost prefer mom rifle industry circle mutual rally upon toe refuse universe sick leopard tiger
+```
+
+
+
 
 ## CW721 contract
 
@@ -161,8 +200,8 @@ starsd tx wasm execute stars10h3qpct2nn2ffjfphkexa5j585k9mf3cp39ajpsggamfs0d4xp9
 ```
 
 # Setup Hermes
-https://hermes.informal.systems/documentation/configuration/configure-hermes.html
-https://github.com/informalsystems/hermes
+[Installation](https://hermes.informal.systems/quick-start/installation.html)
+[Github](https://github.com/informalsystems/hermes)
 
 ## Create an IBC Channel (not working)
 
